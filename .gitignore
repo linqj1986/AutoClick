@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+*.pdb
+*.log
+*.tlog
+*.aps
+*.ipch
+*.zip
+*.bak
