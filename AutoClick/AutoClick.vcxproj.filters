@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Helper">
+      <UniqueIdentifier>{3061365c-646f-4c01-af7d-6fffc8cc1b2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Helper\DebugPrint">
+      <UniqueIdentifier>{98a65214-8185-4bbc-9709-cc426019ca34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Helper\FileHelper">
+      <UniqueIdentifier>{94fbe6c1-4857-418a-b6e7-a419790b11a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Helper\StringHelper">
+      <UniqueIdentifier>{54d8bc49-cfed-47d6-8c0c-2da973af7e63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\AutoClick.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\AutoClick.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AutoClick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoClickDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Helper\DebugPrint\debug.h">
+      <Filter>Source Files\Helper\DebugPrint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Helper\Deffunc.h">
+      <Filter>Source Files\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Helper\Helper.h">
+      <Filter>Source Files\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Helper\FileHelper\FileHelper.h">
+      <Filter>Source Files\Helper\FileHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Helper\StringHelper\StringHelper.h">
+      <Filter>Source Files\Helper\StringHelper</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AutoClick.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoClickDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Helper\DebugPrint\debug.cpp">
+      <Filter>Source Files\Helper\DebugPrint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Helper\FileHelper\FileHelper.cpp">
+      <Filter>Source Files\Helper\FileHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Helper\StringHelper\StringHelper.cpp">
+      <Filter>Source Files\Helper\StringHelper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AutoClick.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
